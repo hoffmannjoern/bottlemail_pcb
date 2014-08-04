@@ -1,0 +1,115 @@
+Partlist
+
+Exported from Flasche_v1.sch at 20.06.13 12:31
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part          Value            Device           Package            Library                 Sheet
+
+ATMEGA1284    ATMEGA644A       ATMEGA644A       TQFP44             atmel                   1
+C1            22p              C-0805           C0805              quantum-sensor          1
+C2            100n             C-0805           C0805              quantum-sensor          1
+C3            100n             C-0805           C0805              quantum-sensor          1
+C4            100n             C-0805           C0805              quantum-sensor          1
+C5            1µ               CPOL-EUSMCD      SMC_D              rcl                     1
+C6            100n             C-0805           C0805              quantum-sensor          1
+C7            100n             C-0805           C0805              quantum-sensor          1
+C8            100n             C-0805           C0805              quantum-sensor          1
+C9            22p              C-0805           C0805              quantum-sensor          1
+C10           1µ               CPOL-EUSMCD      SMC_D              rcl                     1
+C11           100n             C-0805           C0805              quantum-sensor          1
+C12           100n             C-0805           C0805              quantum-sensor          1
+C16           100nF            C-0805           C0805              quantum-sensor          1
+C_U5V         100µF/6,3V       CPOL-EUSMCD      SMC_D              _E                      1
+C_U12V        100µF/16V        CPOL-EUSMCD      SMC_D              _E                      1
+D1            CGRM4001-G       CGRM4001-G       SOD-123_MINI-SMA   diode                   1
+D_U5V         MBRS120          D_SMB            SMB                _D                      1
+I2C                            MA04-1           MA04-1             con-lstb                1
+ISP1          AVRISP-6         AVRISP-6         AVRISP             adafruit                1
+LM2594_3.3    LM2594           LM2594           SO08               _Voltage_Regulators     1
+L_U5V         100µH            L_PISM           PISM               _Trafo_Spule            1
+Q1            8.000 MHz        CRYSTALHC18U-V   HC18U-V            crystal                 1
+Q2            ZVN 3306 F       BSS123           SOT23              transistor-small-signal 1
+Q3            ZVN 3306 F       BSS123           SOT23              transistor-small-signal 1
+Q4            ZVN 3306 F       BSS123           SOT23              transistor-small-signal 1
+Q5            ZVN 3306 F       BSS123           SOT23              transistor-small-signal 1
+Q6            ZVN 3306 F       BSS123           SOT23              transistor-small-signal 1
+Q7            ZVN 3306 F       BSS123           SOT23              transistor-small-signal 1
+R1            50k              R-EU_M1206       M1206              rcl                     1
+R2            50k              R-EU_M1206       M1206              rcl                     1
+R3            10k              R-EU_M1206       M1206              rcl                     1
+R4            10k              R-EU_M1206       M1206              rcl                     1
+R5            20k              R-EU_M1206       M1206              rcl                     1
+R6            100k             R-EU_M1206       M1206              rcl                     1
+R7            10k              R-EU_M1206       M1206              rcl                     1
+R8            100k             R-EU_M1206       M1206              rcl                     1
+R9            2k               R-EU_M1206       M1206              rcl                     1
+R10           40k              R-EU_M1206       M1206              rcl                     1
+R11           10k              R-EU_M1206       M1206              rcl                     1
+RESET_SW                       10-XX            B3F-10XX           switch-omron            1
+R_RESET       10k              R-R0805          R0805              quantum-sensor          1
+R_U12V        10k              R-R0805          R0805              quantum-sensor          1
+SJ1                            SJ2W             SJ_2               jumper                  1
+SJ2                            SJ2W             SJ_2               jumper                  1
+SJ3                            SJ               SJ                 jumper                  1
+SJ4                            SJ               SJ                 jumper                  1
+SJ5                            SJ2W             SJ_2               jumper                  1
+SJ6                            SJ2W             SJ_2               jumper                  1
+SJ7                            SJ2W             SJ_2               jumper                  1
+SJ8                            SJ2W             SJ_2               jumper                  1
+SV2                            ML10L            ML10L              con-ml                  1
+SV3                            ML10L            ML10L              con-ml                  1
+SW_WAKEUP                      10-XX            B3F-10XX           switch-omron            1
+TP1           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP2           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP3           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP4           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP5           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP6           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP7           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP8           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP9           TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP10          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP11          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP12          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP13          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP14          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP15          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP16          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP17          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP18          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP19          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP20          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP21          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP22          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP23          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP24          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP25          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP26          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP27          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP28          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP29          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP30          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP31          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP32          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP33          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+TP34          TPTP06SQ         TPTP06SQ         TP06SQ             testpad                 1
+T_U12V                         MOS_P_SOT23_GDS  SOT23              _transistor             1
+U1            USD-SOCKETNEW    USD-SOCKETNEW    MICRO-SD-SOCKET-PP SparkFun-Connectors     1
+UART1_C2      100n             C-EUC0805        C0805              _C                      1
+UART1_C10     10n              C-EUC0805        C0805              _C                      1
+UART1_C11     100n             C-EUC0805        C0805              _C                      1
+UART1_C12     10µ              CPOL-EUSMCD      SMC_D              _E                      1
+UART1_D_RESET 1N4848           D_MINIMELF       MINIMELF           _D                      1
+UART1_IC2     FT232RL          FT232RL          SSOP28             FTDI                    1
+UART1_L2      22µH             L_PIS2408        PIS2408            _Trafo_Spule            1
+UART1_R6      10k              R-EU_R0805       R0805              _R                      1
+UART1_R7      1k               R-R0805          R0805              quantum-sensor          1
+UART1_R10     1k               R-R0805          R0805              quantum-sensor          1
+UART1_RX_LED                   LEDCHIPLED_0805  CHIPLED_0805       led                     1
+UART1_TX_LED                   LEDCHIPLED_0805  CHIPLED_0805       led                     1
+USB1          MOLEX-47346-0001 MOLEX-47346-0001 MOLEX-47364-0001   usb_con-update          1
+VIN           AK350/2          AK350/2          AK350/2            con-ptr500              1
+XB1           XBEE-PRO         XBEE-PRO         XBEE-PRO           maxstream               1
