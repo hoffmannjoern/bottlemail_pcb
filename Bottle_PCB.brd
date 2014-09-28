@@ -4279,6 +4279,15 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 </element>
 <element name="C11" library="quantum-sensor" package="C0805" value="100n" x="-31" y="-92"/>
 <element name="JP1" library="SparkFun-Connectors" package="1X06" value="" x="-31" y="-99"/>
+<element name="R9" library="resistor" package="R0603" value="1k" x="-31" y="-103">
+<attribute name="SPICEPREFIX" value="R" x="-31" y="-103" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R14" library="resistor" package="R0603" value="1k" x="-31" y="-109">
+<attribute name="SPICEPREFIX" value="R" x="-31" y="-109" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R15" library="resistor" package="R0603" value="1k" x="-31" y="-115">
+<attribute name="SPICEPREFIX" value="R" x="-31" y="-115" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -4816,6 +4825,8 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="71.3985" y1="29.4495" x2="67.818" y2="29.4495" width="0.4064" layer="1"/>
 <wire x1="67.818" y1="29.4495" x2="67.5495" y2="29.718" width="0.4064" layer="1"/>
 <contactref element="JP1" pad="DTR"/>
+<contactref element="R9" pad="1"/>
+<wire x1="-31" y1="-99" x2="-31.85" y2="-103" width="0" layer="19" extent="1-1"/>
 <wire x1="67.818" y1="29.4495" x2="-31" y2="-99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
@@ -5572,13 +5583,32 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <signal name="BEE_MODE">
 <contactref element="XBEE_SOCKET" pad="20"/>
 </signal>
-<signal name="BEE_PAIR">
+<signal name="BEE_DTR">
 <contactref element="XBEE_SOCKET" pad="9"/>
+<contactref element="R9" pad="2"/>
+<wire x1="-32.5" y1="-59" x2="-30.15" y2="-103" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FTDI_CTS">
 <contactref element="UART1_IC2" pad="11"/>
 <contactref element="JP1" pad="CTS"/>
+<contactref element="R14" pad="2"/>
+<wire x1="-20.84" y1="-99" x2="-30.15" y2="-109" width="0" layer="19" extent="1-1"/>
 <wire x1="71.432" y1="23.633" x2="-20.84" y2="-99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="XBEE_SOCKET" pad="12"/>
+<contactref element="R14" pad="1"/>
+<wire x1="-10.5" y1="-59" x2="-31.85" y2="-109" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FTDI_RTS">
+<contactref element="UART1_IC2" pad="3"/>
+<contactref element="R15" pad="2"/>
+<wire x1="71.432" y1="28.833" x2="-30.15" y2="-115" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="XBEE_SOCKET" pad="16"/>
+<contactref element="R15" pad="1"/>
+<wire x1="-10.5" y1="-51" x2="-31.85" y2="-115" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

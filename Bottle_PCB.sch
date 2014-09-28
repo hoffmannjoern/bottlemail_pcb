@@ -29755,6 +29755,9 @@ type RDH, grid 15 mm</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -29824,20 +29827,20 @@ type RDH, grid 15 mm</description>
 <text x="149.225" y="286.385" size="0.8128" layer="250" rot="R90">(PDI/MOSI)</text>
 <text x="151.765" y="286.385" size="0.8128" layer="250" rot="R90">(PDO/MISO)</text>
 <wire x1="368.3" y1="345.44" x2="411.48" y2="345.44" width="0.3048" layer="104" style="shortdash"/>
-<wire x1="287.02" y1="154.94" x2="398.78" y2="154.94" width="0.3048" layer="104" style="shortdash"/>
-<wire x1="398.78" y1="154.94" x2="508" y2="154.94" width="0.3048" layer="104" style="shortdash"/>
+<wire x1="287.02" y1="154.94" x2="419.1" y2="154.94" width="0.3048" layer="104" style="shortdash"/>
+<wire x1="419.1" y1="154.94" x2="508" y2="154.94" width="0.3048" layer="104" style="shortdash"/>
 <wire x1="281.94" y1="149.86" x2="287.02" y2="154.94" width="0.3048" layer="104" style="shortdash" curve="-90"/>
 <wire x1="281.94" y1="48.26" x2="281.94" y2="149.86" width="0.3048" layer="104" style="shortdash"/>
-<wire x1="287.02" y1="43.18" x2="398.78" y2="43.18" width="0.3048" layer="104" style="shortdash"/>
-<wire x1="398.78" y1="43.18" x2="508" y2="43.18" width="0.3048" layer="104" style="shortdash"/>
+<wire x1="287.02" y1="43.18" x2="419.1" y2="43.18" width="0.3048" layer="104" style="shortdash"/>
+<wire x1="419.1" y1="43.18" x2="508" y2="43.18" width="0.3048" layer="104" style="shortdash"/>
 <wire x1="281.94" y1="47.625" x2="286.385" y2="43.18" width="0.3048" layer="104" style="shortdash" curve="90"/>
 <wire x1="288.29" y1="146.05" x2="326.39" y2="146.05" width="0.3048" layer="104"/>
 <text x="289.56" y="147.32" size="3.81" layer="104" font="vector" ratio="12">XBEE Socket</text>
 <wire x1="508" y1="154.94" x2="513.08" y2="149.86" width="0.3048" layer="104" style="shortdash" curve="-90"/>
-<wire x1="398.78" y1="43.18" x2="398.78" y2="154.94" width="0.3048" layer="104" style="shortdash"/>
+<wire x1="419.1" y1="43.18" x2="419.1" y2="154.94" width="0.3048" layer="104" style="shortdash"/>
 <wire x1="513.08" y1="48.26" x2="513.08" y2="149.86" width="0.3048" layer="104" style="shortdash"/>
-<wire x1="407.67" y1="146.05" x2="440.69" y2="146.05" width="0.3048" layer="104"/>
-<text x="408.94" y="147.32" size="3.81" layer="104" font="vector" ratio="12">BTBee Pro</text>
+<wire x1="427.99" y1="146.05" x2="461.01" y2="146.05" width="0.3048" layer="104"/>
+<text x="429.26" y="147.32" size="3.81" layer="104" font="vector" ratio="12">BTBee Pro</text>
 <wire x1="508" y1="43.18" x2="513.08" y2="48.26" width="0.3048" layer="104" style="shortdash" curve="90"/>
 <wire x1="556.26" y1="350.52" x2="678.18" y2="350.52" width="0.3048" layer="104" style="shortdash"/>
 <wire x1="551.18" y1="345.44" x2="556.26" y2="350.52" width="0.3048" layer="104" style="shortdash" curve="-90"/>
@@ -30124,6 +30127,9 @@ type RDH, grid 15 mm</description>
 <instance part="P+2" gate="1" x="96.52" y="134.62"/>
 <instance part="+3V5" gate="G$1" x="93.98" y="127" rot="MR90"/>
 <instance part="+3V17" gate="G$1" x="370.84" y="223.52" rot="MR270"/>
+<instance part="R9" gate="G$1" x="312.42" y="68.58"/>
+<instance part="R14" gate="G$1" x="381" y="68.58"/>
+<instance part="R15" gate="G$1" x="381" y="78.74"/>
 </instances>
 <busses>
 <bus name="SPI_NATIV:PB7_SCK,PB6_MISO,PB5_MOSI,PB4_SS">
@@ -30739,6 +30745,11 @@ type RDH, grid 15 mm</description>
 <wire x1="393.7" y1="231.14" x2="378.46" y2="231.14" width="0.1524" layer="91"/>
 <label x="378.46" y="231.14" size="1.016" layer="95"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="287.02" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$18" class="0">
 <segment>
@@ -30966,7 +30977,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="81.28" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="287.02" y="83.82" size="1.778" layer="95" rot="MR180"/>
+<label x="287.02" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="RXI"/>
@@ -31338,7 +31349,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="88.9" x2="287.02" y2="88.9" width="0.1524" layer="91"/>
-<label x="287.02" y="91.44" size="1.778" layer="95" rot="MR180"/>
+<label x="287.02" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="TXO"/>
@@ -31594,25 +31605,23 @@ type RDH, grid 15 mm</description>
 <net name="BEE_STATUS" class="0">
 <segment>
 <pinref part="XBEE_SOCKET" gate="G$1" pin="DIO1"/>
-<wire x1="388.62" y1="86.36" x2="373.38" y2="86.36" width="0.1524" layer="91"/>
-<label x="388.62" y="86.36" size="1.778" layer="95" rot="MR0"/>
-<wire x1="388.62" y1="86.36" x2="391.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="86.36" x2="373.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="398.78" y="86.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="BEE_MODE" class="0">
 <segment>
 <pinref part="XBEE_SOCKET" gate="G$1" pin="DIO0"/>
-<wire x1="373.38" y1="88.9" x2="388.62" y2="88.9" width="0.1524" layer="91"/>
-<label x="388.62" y="88.9" size="1.778" layer="95" rot="MR0"/>
-<wire x1="388.62" y1="88.9" x2="391.16" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="88.9" x2="398.78" y2="88.9" width="0.1524" layer="91"/>
+<label x="398.78" y="88.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="BEE_PAIR" class="0">
+<net name="BEE_DTR" class="0">
 <segment>
 <pinref part="XBEE_SOCKET" gate="G$1" pin="DTR"/>
-<wire x1="332.74" y1="68.58" x2="314.96" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="68.58" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
-<label x="314.96" y="68.58" size="1.778" layer="95"/>
+<wire x1="332.74" y1="68.58" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
+<label x="317.5" y="68.58" size="1.778" layer="95"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FTDI_CTS" class="0">
@@ -31625,6 +31634,37 @@ type RDH, grid 15 mm</description>
 <pinref part="JP1" gate="G$1" pin="CTS"/>
 <wire x1="393.7" y1="220.98" x2="378.46" y2="220.98" width="0.1524" layer="91"/>
 <label x="378.46" y="220.98" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="386.08" y1="68.58" x2="398.78" y2="68.58" width="0.1524" layer="91"/>
+<label x="398.78" y="68.58" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="XBEE_SOCKET" gate="G$1" pin="CTS"/>
+<wire x1="373.38" y1="68.58" x2="375.92" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="FTDI_RTS" class="0">
+<segment>
+<pinref part="UART1_IC2" gate="1" pin="RTS#"/>
+<wire x1="58.42" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
+<label x="45.72" y="124.46" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="386.08" y1="78.74" x2="398.78" y2="78.74" width="0.1524" layer="91"/>
+<label x="398.78" y="78.74" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="XBEE_SOCKET" gate="G$1" pin="RTS"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="78.74" x2="375.92" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
