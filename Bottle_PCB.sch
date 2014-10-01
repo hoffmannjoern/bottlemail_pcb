@@ -14558,13 +14558,13 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R_RESET" library="Arduino-SmartPrj" deviceset="R-EU_" device="R0603" value="10k">
 <variant name="BOM_CHECKED" value="Reichelt SMD-0603 10K"/>
 </part>
-<part name="C9" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="22p">
+<part name="C9" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="22pf">
 <variant name="BOM_CHECKED" value="Reichelt NPO-G0603 22P"/>
 </part>
-<part name="C1" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="22p">
+<part name="C1" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="22pF">
 <variant name="BOM_CHECKED" value="Reichelt NPO-G0603 22P"/>
 </part>
-<part name="C7" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C7" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -14578,21 +14578,21 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="ATMEGA1284P-AU" library="atmel" deviceset="ATMEGA644" device="A" value="Reichelt ATMEGA 1284P-AU"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C6" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="UART1_IC2" library="FTDI" deviceset="FT232R" device="L" value="Reichelt FT 232 RL"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="UART1_C2" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="UART1_C2" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="UART1_C10" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="10n">
+<part name="UART1_C10" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="10nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 10N"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="UART1_C11" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="UART1_C11" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -14619,10 +14619,10 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="RESET_SW" library="switch-omron" deviceset="10-XX" device="">
 <variant name="BOM_CHECKED" value="Reichelt TASTER 3301"/>
 </part>
-<part name="C2" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C2" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
-<part name="C3" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C3" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -14655,22 +14655,22 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R6" library="Arduino-SmartPrj" deviceset="R-EU_" device="R0603" value="100k">
 <variant name="BOM_CHECKED" value="Reichelt SMD-0603 100K"/>
 </part>
-<part name="C4" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C4" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="Arduino-SmartPrj" deviceset="C-EU" device="C1210" value="1µ">
+<part name="C5" library="Arduino-SmartPrj" deviceset="C-EU" device="C1210" value="1µF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G1210 1,0"/>
 </part>
 <part name="R7" library="Arduino-SmartPrj" deviceset="R-EU_" device="R0603" value="10k">
 <variant name="BOM_CHECKED" value="Reichelt SMD-0603 10K"/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="C8" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C8" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="Arduino-SmartPrj" deviceset="C-EU" device="C1210" value="1µ">
+<part name="C10" library="Arduino-SmartPrj" deviceset="C-EU" device="C1210" value="1µF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G1210 1,0"/>
 </part>
 <part name="Q6" library="transistor-small-signal" deviceset="BSS123" device="" value="Reichelt ZVN 3306 F"/>
@@ -14685,7 +14685,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
-<part name="C12" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C12" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="IOL" library="con-lsta" deviceset="FE08-1" device="">
@@ -14728,7 +14728,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="SW_BEE_RST" library="switch-omron" deviceset="10-XX" device="">
 <variant name="BOM_CHECKED" value="Reichelt TASTER 3301"/>
 </part>
-<part name="C11" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100n">
+<part name="C11" library="Arduino-SmartPrj" deviceset="C-EU" device="C0603" value="100nF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G0603 100N"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>

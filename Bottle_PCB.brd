@@ -2824,15 +2824,15 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <attribute name="NAME" x="56.515" y="11.1125" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="55.88" y="11.7475" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C9" library="Arduino-SmartPrj" package="C0603-ROUND" value="22p" x="61.2648" y="20.8788" smashed="yes" rot="R270">
+<element name="C9" library="Arduino-SmartPrj" package="C0603-ROUND" value="22pf" x="61.2648" y="20.8788" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.5348" y="22.1488" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="60.6298" y="19.6088" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C1" library="Arduino-SmartPrj" package="C0603-ROUND" value="22p" x="61.2648" y="24.3078" smashed="yes" rot="R90">
+<element name="C1" library="Arduino-SmartPrj" package="C0603-ROUND" value="22pF" x="61.2648" y="24.3078" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.9948" y="23.0378" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="62.2173" y="25.5778" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C7" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="36.5125" y="21.59" smashed="yes" rot="R270">
+<element name="C7" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="36.5125" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.7825" y="22.86" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="38.735" y="20.0025" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2846,11 +2846,11 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <attribute name="MF" value="" x="46.0375" y="21.2725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1455123" x="46.0375" y="21.2725" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C6" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="47.625" y="21.59" rot="MR180"/>
+<element name="C6" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="47.625" y="21.59" rot="MR180"/>
 <element name="UART1_IC2" library="FTDI" package="SSOP28" value="Reichelt FT 232 RL" x="75.057" y="25.908" rot="R270"/>
-<element name="UART1_C2" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="75.057" y="22.733" rot="MR90"/>
-<element name="UART1_C10" library="Arduino-SmartPrj" package="C0603-ROUND" value="10n" x="95.885" y="23.114" rot="R270"/>
-<element name="UART1_C11" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="75.057" y="26.543" rot="MR90"/>
+<element name="UART1_C2" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="75.057" y="22.733" rot="MR90"/>
+<element name="UART1_C10" library="Arduino-SmartPrj" package="C0603-ROUND" value="10nF" x="95.885" y="23.114" rot="R270"/>
+<element name="UART1_C11" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="75.057" y="26.543" rot="MR90"/>
 <element name="UART1_R6" library="Arduino-SmartPrj" package="R0603-ROUND" value="10k" x="68.3895" y="21.7805" rot="R180"/>
 <element name="UART1_R7" library="Arduino-SmartPrj" package="R0603-ROUND" value="2k2" x="87.63" y="22.606" rot="R90"/>
 <element name="UART1_RX_LED" library="led" package="CHIPLED_0603" value="" x="87.63" y="26.416"/>
@@ -2863,8 +2863,8 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <attribute name="MF" value="" x="58.1025" y="3.4925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="58.1025" y="3.4925" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="45.085" y="19.05" rot="MR270"/>
-<element name="C3" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="44.7675" y="22.86" rot="MR90"/>
+<element name="C2" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="45.085" y="19.05" rot="MR270"/>
+<element name="C3" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="44.7675" y="22.86" rot="MR90"/>
 <element name="ISP1" library="adafruit" package="AVRISP" value="Reichelt WSL 6G" x="51.7525" y="46.0375"/>
 <element name="I2C" library="con-lstb" package="MA04-1" value="" x="43.18" y="34.29">
 <attribute name="OC_NEWARK" value="unknown" x="43.18" y="34.29" size="1.778" layer="27" display="off"/>
@@ -2879,11 +2879,11 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <element name="Q5" library="transistor-small-signal" package="SOT23" value="Reichelt ZVN 3306 F" x="4.191" y="33.401" rot="MR0"/>
 <element name="R5" library="Arduino-SmartPrj" package="R0603-ROUND" value="10k" x="21.7678" y="29.2481"/>
 <element name="R6" library="Arduino-SmartPrj" package="R0603-ROUND" value="100k" x="17.9451" y="27.7495" rot="R90"/>
-<element name="C4" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="3.4925" y="37.7825" rot="MR90"/>
-<element name="C5" library="Arduino-SmartPrj" package="C1210" value="1µ" x="12.3825" y="45.085"/>
+<element name="C4" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="3.4925" y="37.7825" rot="MR90"/>
+<element name="C5" library="Arduino-SmartPrj" package="C1210" value="1µF" x="12.3825" y="45.085"/>
 <element name="R7" library="Arduino-SmartPrj" package="R0603-ROUND" value="10k" x="29.5275" y="6.0325" rot="MR0"/>
-<element name="C8" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="22.225" y="5.715"/>
-<element name="C10" library="Arduino-SmartPrj" package="C1210" value="1µ" x="24.3975" y="9.4" rot="MR90"/>
+<element name="C8" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="22.225" y="5.715"/>
+<element name="C10" library="Arduino-SmartPrj" package="C1210" value="1µF" x="24.3975" y="9.4" rot="MR90"/>
 <element name="Q6" library="transistor-small-signal" package="SOT23" value="Reichelt ZVN 3306 F" x="31.115" y="9.8425" rot="MR0"/>
 <element name="R8" library="Arduino-SmartPrj" package="R0603-ROUND" value="100k" x="35.433" y="8.763" rot="MR0"/>
 <element name="Q7" library="transistor-small-signal" package="SOT23" value="Reichelt ZVN 3306 F" x="25.495" y="2.6035" rot="MR270"/>
@@ -2893,7 +2893,7 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <attribute name="MF" value="" x="45.72" y="3.4925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="45.72" y="3.4925" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C12" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="39.37" y="3.4925" rot="R90"/>
+<element name="C12" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="39.37" y="3.4925" rot="R90"/>
 <element name="IOL" library="con-lsta" package="FE08" value="" x="5" y="-11">
 <attribute name="OC_NEWARK" value="unknown" x="5" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="5" y="-11" size="1.778" layer="27" display="off"/>
@@ -2932,7 +2932,7 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <attribute name="MF" value="" x="-39" y="-73" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="-39" y="-73" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="Arduino-SmartPrj" package="C0603-ROUND" value="100n" x="-31" y="-92"/>
+<element name="C11" library="Arduino-SmartPrj" package="C0603-ROUND" value="100nF" x="-31" y="-92"/>
 <element name="JP1" library="SparkFun-Connectors" package="1X06" value="" x="-31" y="-99"/>
 <element name="R9" library="Arduino-SmartPrj" package="R0603-ROUND" value="1k" x="-31" y="-103"/>
 <element name="R14" library="Arduino-SmartPrj" package="R0603-ROUND" value="1k" x="-31" y="-109"/>
