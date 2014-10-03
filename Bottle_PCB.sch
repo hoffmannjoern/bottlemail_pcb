@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14770,13 +14770,13 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="C13" library="Arduino-SmartPrj" deviceset="C-EU" device="C1210" value="1µF">
 <variant name="BOM_CHECKED" value="Reichelt X7R-G1210 1,0"/>
 </part>
-<part name="D2" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2U">
+<part name="D2" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2L">
 <variant name="BOM_CHECKED" value="DigiKey MSS1P2U"/>
 </part>
-<part name="D3" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2U">
+<part name="D3" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2L">
 <variant name="BOM_CHECKED" value="DigiKey MSS1P2U"/>
 </part>
-<part name="D4" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2U">
+<part name="D4" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2L">
 <variant name="BOM_CHECKED" value="DigiKey MSS1P2U"/>
 </part>
 <part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
@@ -14837,10 +14837,10 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R_WAKEUP" library="Arduino-SmartPrj" deviceset="R-EU_" device="R0603" value="10k">
 <variant name="BOM_CHECKED" value="Reichelt SMD-0603 10K"/>
 </part>
-<part name="D5" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2U">
+<part name="D5" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2L">
 <variant name="BOM_CHECKED" value="DigiKey MSS1P2U"/>
 </part>
-<part name="D6" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2U">
+<part name="D6" library="Seed-Discrete" deviceset="D*" device="1005" value="MSS1P2L">
 <variant name="BOM_CHECKED" value="DigiKey MSS1P2U"/>
 </part>
 <part name="C17" library="Arduino-SmartPrj" deviceset="C-EU" device="C0805" value="10µF / 16V">

@@ -2949,9 +2949,9 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <element name="LIPO-BAT" library="Seed-Battery-Connector" package="JST-2.0" value="" x="-45" y="-169"/>
 <element name="SOLAR" library="Seed-Battery-Connector" package="JST-2.0" value="" x="-45" y="-176"/>
 <element name="C13" library="Arduino-SmartPrj" package="C1210" value="1µF" x="-47" y="-183"/>
-<element name="D2" library="Seed-Discrete" package="D1005" value="MSS1P2U" x="-46" y="-189"/>
-<element name="D3" library="Seed-Discrete" package="D1005" value="MSS1P2U" x="-46" y="-192"/>
-<element name="D4" library="Seed-Discrete" package="D1005" value="MSS1P2U" x="-46" y="-195"/>
+<element name="D2" library="Seed-Discrete" package="D1005" value="MSS1P2L" x="-46" y="-189"/>
+<element name="D3" library="Seed-Discrete" package="D1005" value="MSS1P2L" x="-46" y="-192"/>
+<element name="D4" library="Seed-Discrete" package="D1005" value="MSS1P2L" x="-46" y="-195"/>
 <element name="SJ2" library="jumper" package="SJ_2" value="" x="-46" y="-201"/>
 <element name="SJ4" library="jumper" package="SJ_2" value="" x="-46" y="-206"/>
 <element name="T_LIPO_USB" library="_transistor" package="SOT23" value="Reichelt IRLML 6402" x="-46" y="-219"/>
@@ -2977,8 +2977,8 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <element name="UART1_C1" library="Arduino-SmartPrj" package="C0603-ROUND" value="10n" x="-68" y="-308"/>
 <element name="USB_CONNECTOR" library="SparkFun-Connectors" package="USB-MINIB" value="USB-MINIB-5PIN Sparkfun PRT-00587" x="92" y="11" rot="R180"/>
 <element name="R_WAKEUP" library="Arduino-SmartPrj" package="R0603-ROUND" value="10k" x="-68" y="-314"/>
-<element name="D5" library="Seed-Discrete" package="D1005" value="MSS1P2U" x="-67" y="-319"/>
-<element name="D6" library="Seed-Discrete" package="D1005" value="MSS1P2U" x="-67" y="-324"/>
+<element name="D5" library="Seed-Discrete" package="D1005" value="MSS1P2L" x="-67" y="-319"/>
+<element name="D6" library="Seed-Discrete" package="D1005" value="MSS1P2L" x="-67" y="-324"/>
 <element name="C17" library="Arduino-SmartPrj" package="C0805" value="10µF / 16V" x="-68" y="-330"/>
 <element name="C18" library="Arduino-SmartPrj" package="C0805" value="10µF / 16V" x="-68" y="-334"/>
 <element name="C19" library="Arduino-SmartPrj" package="C0805" value="10µF / 16V" x="-68" y="-338"/>
